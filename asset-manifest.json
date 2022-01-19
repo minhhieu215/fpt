@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/fpt/static/css/main.f9e756b9.css",
-    "main.js": "/fpt/static/js/main.93f985d3.js",
+    "main.css": "/fpt/static/css/main.edc36908.css",
+    "main.js": "/fpt/static/js/main.1701a6c5.js",
     "static/js/787.5fdb0445.chunk.js": "/fpt/static/js/787.5fdb0445.chunk.js",
     "static/media/bg-dk.png": "/fpt/static/media/bg-dk.7d90f27f16c6b2ac829f.png",
     "static/media/bg-banner.png": "/fpt/static/media/bg-banner.b5cbdc54bccecae41e08.png",
     "static/media/html-title.png": "/fpt/static/media/html-title.f3ffd5b7251872542c2e.png",
     "static/media/title.png": "/fpt/static/media/title.bbbe46265523ebf85db3.png",
+    "static/media/iphone13.png": "/fpt/static/media/iphone13.55067e5afde5a685d1f1.png",
     "static/media/hinh4.png": "/fpt/static/media/hinh4.afbe3fb192d66dc63991.png",
     "static/media/hinh1.png": "/fpt/static/media/hinh1.fff0ba9f3e42e64e00d6.png",
     "static/media/hinh3.png": "/fpt/static/media/hinh3.af40f9bf363264afcc8a.png",
@@ -15,6 +16,7 @@
     "static/media/download-removebg-preview.png": "/fpt/static/media/download-removebg-preview.80bb7585d9250300e0ed.png",
     "static/media/archive.png": "/fpt/static/media/archive.d49c26b13ba1b64834d3.png",
     "static/media/_iphone-13-pro-max-dd-1.png": "/fpt/static/media/637673213598401263_iphone-13-pro-max-dd-1.5e1ae4c359896cc016f7.png",
+    "static/media/icon.png": "/fpt/static/media/icon.d63d809910ae0fd1c529.png",
     "static/media/_samsung-galaxy-a52s-5g-dd.png": "/fpt/static/media/637672395068813010_samsung-galaxy-a52s-5g-dd.711063f9aae776621807.png",
     "static/media/_samsung-galaxy-s21-fe-xanh-dd.png": "/fpt/static/media/637768861737691256_samsung-galaxy-s21-fe-xanh-dd.1269c55fc8ad562e1e83.png",
     "static/media/sim.jfif": "/fpt/static/media/sim.53524f5cabaf6e7a8513.jfif",
@@ -24,13 +26,14 @@
     "static/media/slick.ttf": "/fpt/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/fpt/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/fpt/index.html",
+    "static/media/text.txt": "/fpt/static/media/text.c723b1c8781cf39fff47.txt",
     "static/media/SalePoster.txt": "/fpt/static/media/SalePoster.31d6cfe0d16ae931b73c.txt",
-    "main.f9e756b9.css.map": "/fpt/static/css/main.f9e756b9.css.map",
-    "main.93f985d3.js.map": "/fpt/static/js/main.93f985d3.js.map",
+    "main.edc36908.css.map": "/fpt/static/css/main.edc36908.css.map",
+    "main.1701a6c5.js.map": "/fpt/static/js/main.1701a6c5.js.map",
     "787.5fdb0445.chunk.js.map": "/fpt/static/js/787.5fdb0445.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f9e756b9.css",
-    "static/js/main.93f985d3.js"
+    "static/css/main.edc36908.css",
+    "static/js/main.1701a6c5.js"
   ]
 }
