@@ -17,7 +17,7 @@ function Header(){
 
      <div className="header">
      <div className=" dl-stretch-center header_top " >
-         <Link to ="">
+         <Link to ="/fpt">
 
    < img className="logo" src={ require('./images/download-removebg-preview.png') } />
          </Link>
