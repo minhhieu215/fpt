@@ -1,0 +1,6 @@
+0.filter X
+1. Chỗ mua hàng
+=> View images
+
+2. Giỏ hàng 
+3. Form validate

@@ -1,4 +1,6 @@
 import {useState} from 'react'
+import { Routes, Link, BrowserRouter as Router , Outlet} from 'react-router-dom'  
+
 const searchNavItems = [
     "IPhone11",
     "IPhone12",
@@ -11,11 +13,14 @@ html.onclick=()=> document.querySelector(".search_nav").classList.remove("show")
 function Header(){
     const [searchNav, setSearchNav]= useState(searchNavItems)
     const [inputValue , setInputValue] =useState('')
-    console.log(searchNav)
     return (
+
      <div className="header">
      <div className=" dl-stretch-center header_top " >
-     <img className="logo" src={ require('./images/download-removebg-preview.png') } />
+         <Link to ="">
+
+   < img className="logo" src={ require('./images/download-removebg-preview.png') } />
+         </Link>
      <div 
    
     className="  search_block">
@@ -64,7 +69,8 @@ function Header(){
      </ul>
      </div>
      <div className="header_bot">
-         <li> <i className="ti-apple icon"></i>ĐIỆN THOẠI</li>
+      <Link to="/dienthoai"><li> <i className="ti-apple icon"></i>ĐIỆN THOẠI</li>
+      </Link>   
          <li> <i className="ti-apple icon"></i>LAPTOP</li>
          <li> <i className="ti-apple icon"></i>APPLE</li>
          <li> <i className="ti-apple icon"></i>PC-Linh Kiện</li>
@@ -75,6 +81,7 @@ function Header(){
          <li> <i className="ti-apple icon"></i>KHUYẾN MÃI </li>
          <li> <i className="ti-apple icon"></i>TRẢ GÓP 0%</li>
      </div>
+     <Outlet/>
    </div>
     )
 }
