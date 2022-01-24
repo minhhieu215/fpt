@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import SaleSP from './SaleSP'
 import {sanphams } from './Sale'
-import { Outlet } from 'react-router-dom';
+// import { Outlet } from 'react-router-dom';
 const config = {
     infinite: true,
     speed: 500,
@@ -74,8 +74,6 @@ const config = {
 function Dienthoai(){
         const [ checked , setChecked ] = useState(sanphams)
         const [ checkedPrices , setCheckedPrices ] = useState([])
-        console.log("Choice:",checked)
-        console.log("Price:",checkedPrices)
         // const reRender =()=>{
         //   sanphams.filter(sanpham=> )
         // }
@@ -83,7 +81,6 @@ function Dienthoai(){
           if(checked[0]=="Tất cả") return sanpham
           return checked.includes(sanpham.brand)
         })
-      console.log("San pham sau khi check : ", newSp)
         const handleChecked = (name, setCheck,checkArray)=>{
 
           setCheck(()=>{

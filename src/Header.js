@@ -64,22 +64,24 @@ function Header(){
          </li></a>
         <a href="/"><li className="header_top_link dl-column">
        <i className="ti-shopping-cart icon"></i>
-        <span>Giỏ hàng</span>
+      <Link to="/cart"><span>Giỏ hàng</span>
+          </Link>  
          </li></a>
      </ul>
      </div>
      <div className="header_bot">
       <Link to="/dienthoai"><li> <i className="ti-apple icon"></i>ĐIỆN THOẠI</li>
       </Link>   
-         <li> <i className="ti-apple icon"></i>LAPTOP</li>
-         <li> <i className="ti-apple icon"></i>APPLE</li>
-         <li> <i className="ti-apple icon"></i>PC-Linh Kiện</li>
-         <li> <i className="ti-apple icon"></i>PHỤ KIỆN</li>
-         <li> <i className="ti-apple icon"></i>MÁY CŨ GIÁ RẺ</li>
-         <li> <i className="ti-apple icon"></i>HÀNG GIA DỤNG</li>
-         <li> <i className="ti-apple icon"></i>SIM & THẺ</li>
-         <li> <i className="ti-apple icon"></i>KHUYẾN MÃI </li>
-         <li> <i className="ti-apple icon"></i>TRẢ GÓP 0%</li>
+      <Link to="/dienthoai"><li> <i className="ti-apple icon"></i>ĐIỆN THOẠI</li>
+      </Link>      <Link to="/dienthoai"><li> <i className="ti-apple icon"></i>ĐIỆN THOẠI</li>
+      </Link>      <Link to="/dienthoai"><li> <i className="ti-apple icon"></i>ĐIỆN THOẠI</li>
+      </Link>      <Link to="/dienthoai"><li> <i className="ti-apple icon"></i>ĐIỆN THOẠI</li>
+      </Link>      <Link to="/dienthoai"><li> <i className="ti-apple icon"></i>ĐIỆN THOẠI</li>
+      </Link>      <Link to="/dienthoai"><li> <i className="ti-apple icon"></i>ĐIỆN THOẠI</li>
+      </Link>      <Link to="/dienthoai"><li> <i className="ti-apple icon"></i>ĐIỆN THOẠI</li>
+      </Link>      <Link to="/dienthoai"><li> <i className="ti-apple icon"></i>ĐIỆN THOẠI</li>
+      </Link>      <Link to="/dienthoai"><li> <i className="ti-apple icon"></i>ĐIỆN THOẠI</li>
+      </Link>   
      </div>
      <Outlet/>
    </div>
