@@ -1,0 +1,8 @@
+0.filter X
+1. Chỗ mua hàng X
+=> View images
+
+2. Giỏ hàng 
+=> hình , tên sản phẩm , màu sắc , số lượng , Giá 
+=>Lấy list sp từ localStorage ,render sp ,  tính tổng sản phẩm 
+3. Form validate

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/fpt/static/css/main.edc36908.css",
-    "main.js": "/fpt/static/js/main.ce5e83e8.js",
+    "main.css": "/fpt/static/css/main.0e798d13.css",
+    "main.js": "/fpt/static/js/main.d4f2b116.js",
     "static/js/787.5fdb0445.chunk.js": "/fpt/static/js/787.5fdb0445.chunk.js",
     "static/media/bg-dk.png": "/fpt/static/media/bg-dk.7d90f27f16c6b2ac829f.png",
     "static/media/bg-banner.png": "/fpt/static/media/bg-banner.b5cbdc54bccecae41e08.png",
@@ -13,6 +13,7 @@
     "static/media/hinh3.png": "/fpt/static/media/hinh3.af40f9bf363264afcc8a.png",
     "static/media/hinh2.png": "/fpt/static/media/hinh2.e84dbdcb22aa1f10707d.png",
     "static/media/banner.jfif": "/fpt/static/media/banner.d80a08d83a523a1a5ef6.jfif",
+    "static/media/ipvang1.jpg": "/fpt/static/media/ipvang1.c166af1e25c4ba619f90.jpg",
     "static/media/download-removebg-preview.png": "/fpt/static/media/download-removebg-preview.80bb7585d9250300e0ed.png",
     "static/media/archive.png": "/fpt/static/media/archive.d49c26b13ba1b64834d3.png",
     "static/media/_iphone-13-pro-max-dd-1.png": "/fpt/static/media/637673213598401263_iphone-13-pro-max-dd-1.5e1ae4c359896cc016f7.png",
@@ -26,14 +27,14 @@
     "static/media/slick.ttf": "/fpt/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/fpt/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/fpt/index.html",
-    "static/media/text.txt": "/fpt/static/media/text.c723b1c8781cf39fff47.txt",
+    "static/media/text.txt": "/fpt/static/media/text.0488117b49a81e79213f.txt",
     "static/media/SalePoster.txt": "/fpt/static/media/SalePoster.31d6cfe0d16ae931b73c.txt",
-    "main.edc36908.css.map": "/fpt/static/css/main.edc36908.css.map",
-    "main.ce5e83e8.js.map": "/fpt/static/js/main.ce5e83e8.js.map",
+    "main.0e798d13.css.map": "/fpt/static/css/main.0e798d13.css.map",
+    "main.d4f2b116.js.map": "/fpt/static/js/main.d4f2b116.js.map",
     "787.5fdb0445.chunk.js.map": "/fpt/static/js/787.5fdb0445.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.edc36908.css",
-    "static/js/main.ce5e83e8.js"
+    "static/css/main.0e798d13.css",
+    "static/js/main.d4f2b116.js"
   ]
 }
