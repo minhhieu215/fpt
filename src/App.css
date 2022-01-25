@@ -612,6 +612,7 @@ margin-bottom: 13px;
 }
 .select{
   display:inline-block;
+  flex-wrap: wrap;
 }
 .select_item{
   padding: 10px 25px
@@ -722,7 +723,7 @@ p{
   padding-top: 20px;
   padding-bottom: 20px;
   overflow: hidden;
-
+ 
 }
 .bill{
   border: none;
