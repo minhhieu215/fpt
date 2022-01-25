@@ -1,4 +1,4 @@
-import {useState} from 'react'
+import {useState , useEffect } from 'react'
 import { Routes, Link, BrowserRouter as Router , Outlet} from 'react-router-dom'  
 
 const searchNavItems = [
@@ -8,15 +8,48 @@ const searchNavItems = [
     "IPhone14",
 ]
 const html=document.querySelector("html")
-html.onclick=()=> document.querySelector(".search_nav").classList.remove("show")
+html.onclick=()=>{ document.querySelector(".search_nav").classList.remove("show")
+document.querySelector(".header_nav").classList.remove("show")}
 
 function Header(){
+    useEffect(()=>{
+        const menuBtn = document.querySelector(".menu")
+        const headerMenu = document.querySelector(".header_nav")
+        menuBtn.onclick = (e)=>{
+            e.stopPropagation()
+            headerMenu.classList.add("show")
+            console.log("HI")
+        }
+    },[])
     const [searchNav, setSearchNav]= useState(searchNavItems)
     const [inputValue , setInputValue] =useState('')
     return (
-
+        <>
+        <div className="header_nav">
+            <ul>
+            <Link to="/dienthoai"><li> <i className="ti-apple icon"></i>ĐIỆN THOẠI</li>
+      </Link>   
+      <Link to="/dienthoai"><li> <i className="ti-apple icon"></i>ĐIỆN THOẠI</li>
+      </Link>   
+      <Link to="/dienthoai"><li> <i className="ti-apple icon"></i>ĐIỆN THOẠI</li>
+      </Link>     <Link to="/dienthoai"><li> <i className="ti-apple icon"></i>ĐIỆN THOẠI</li>
+      </Link>     <Link to="/dienthoai"><li> <i className="ti-apple icon"></i>ĐIỆN THOẠI</li>
+      </Link>     <Link to="/dienthoai"><li> <i className="ti-apple icon"></i>ĐIỆN THOẠI</li>
+      </Link>     <Link to="/dienthoai"><li> <i className="ti-apple icon"></i>ĐIỆN THOẠI</li>
+      </Link>     <Link to="/dienthoai"><li> <i className="ti-apple icon"></i>ĐIỆN THOẠI</li>
+      </Link>     <Link to="/dienthoai"><li> <i className="ti-apple icon"></i>ĐIỆN THOẠI</li>
+      </Link>     <Link to="/dienthoai"><li> <i className="ti-apple icon"></i>ĐIỆN THOẠI</li>
+      </Link>     <Link to="/dienthoai"><li> <i className="ti-apple icon"></i>ĐIỆN THOẠI</li>
+      </Link>     <Link to="/dienthoai"><li> <i className="ti-apple icon"></i>ĐIỆN THOẠI</li>
+      </Link>     <Link to="/dienthoai"><li> <i className="ti-apple icon"></i>ĐIỆN THOẠI</li>
+      </Link>   
+            </ul>
+        </div>
      <div className="header">
      <div className=" dl-stretch-center header_top " >
+     <div className="menu_icon menu">
+         <img src={require("./images/menu-removebg-preview.png")} alt="" />
+     </div>
          <Link to ="/fpt">
 
    < img className="logo" src={ require('./images/download-removebg-preview.png') } />
@@ -68,6 +101,10 @@ function Header(){
           </Link>  
          </li></a>
      </ul>
+     <div className="menu_icon cart">
+     <Link to="/cart"> <img src={require("./images/cart-removebg-preview.png")} alt="" />
+     </Link>
+     </div>
      </div>
      <div className="header_bot">
       <Link to="/dienthoai"><li> <i className="ti-apple icon"></i>ĐIỆN THOẠI</li>
@@ -85,6 +122,8 @@ function Header(){
      </div>
      <Outlet/>
    </div>
+   </>
+
     )
 }
 export default Header

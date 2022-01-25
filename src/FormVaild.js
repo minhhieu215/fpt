@@ -20,11 +20,11 @@ const FormVaild = () => {
    const emailBlock = document.querySelector(".email_wrapper").querySelector(".errorMessage")
    submitBtn.onclick=()=>{
     if(validateEmail(email)){
-      // emailBlock.style="display:none"
+      emailBlock.style="display:none"
       console.log("True")
       console.log(email)
     }else{
-      // emailBlock.style="display:block"
+      emailBlock.style="display:block"
       console.log(email)
       console.log("False")
     }

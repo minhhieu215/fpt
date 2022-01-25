@@ -352,7 +352,7 @@ vertical-align: baseline;
 .Sim>img{
   width: 33.333%;
 }
-.footer a{
+.footer p{
   color: #3399d2;
 }
 .footer{
@@ -380,6 +380,11 @@ vertical-align: baseline;
 }
 .nav_bar{
   width:30%
+}
+.menu_icon{
+  
+  width: 71px;
+display:none;
 }
 .sp_wrapper{
   width:70%;
@@ -432,6 +437,7 @@ width:50%;
 .uutien{
   padding:  0 20px;
   display:flex;
+  flex-wrap: wrap;
 }
 .uutien>button{
 
@@ -611,7 +617,8 @@ margin-bottom: 13px;
   padding: 10px 25px
   ;
   background-color:#edeeef;
-  border: radius 5x;
+ 
+  flex-wrap: wrap; border: radius 5x;
 }
 .select_item:checked{
   color: #d0021b;
@@ -708,10 +715,14 @@ p{
 }
 .trangsp_wrapper{
   padding-bottom: 20px;
+  overflow: hidden;
 }
 .bill_wrapper{
-  background:white;
+  background: white;
   padding-top: 20px;
+  padding-bottom: 20px;
+  overflow: hidden;
+
 }
 .bill{
   border: none;
@@ -727,7 +738,7 @@ p{
   font-weight: 500;
   font-size: 24px;
   display:flex;
-  flex-direction: row;
+  flex-direction: row;align-items: center;
 }
 .bill_img{
   height: 75px;
@@ -744,6 +755,7 @@ p{
   padding: 20px;
 }
 .bill_sp{
+  position: relative;
   padding: 20px;
 }
 .bill_soluong h3 {
@@ -873,10 +885,27 @@ strike{
   width: 100%;
   margin-top: 20px;
 }
-.ten_sdt{
-
+.header_nav{
+  transform: translateX(-100%);
+  opacity:0;
+  display:none;
+  animation: slideInTo 1s linear forwards ;
+  z-index: 10000;
+  width: 70vw;
+  height: 100vh;
+  background:#333;
+  position: fixed;
 }
+.header_nav.show{
+  display:block;
+}
+@keyframes slideInTo {
+    to{
+  opacity:1;
 
+      transform: translateX(0);
+    }
+}
 .Hoten.error,.sdt.error{
   border: solid 1px red;
 }
@@ -915,5 +944,81 @@ background-color: unset;
   margin-top: 20px;
   padding: top 20px;
   flex-direction: column;
+}
+.sp_wrapper {
+  width: 100%;
+}
+.nav_bar{
+  display:none;
+}
+.sanpham{
+  overflow: hidden;
+  width: 50%;
+  flex: none;
+  transform: scale(0.8);
+}
+.footer{
+  padding: 20px;
+}
+.menu_icon{
+  display: block;
+}
+.menu_icon img{
+  width:  56px;
+}
+.logo {
+  height: 3rem;
+}
+.cart{
+  flex-grow: 1;
+}
+.menu_icon img{
+  float: right;
+}
+
+.header_nav li {
+  color: white;
+  padding: 10px 20px;
+}
+.trangsp_wrapper{
+  padding: 20px;
+  flex-direction: column;
+}
+.row_1,.row_2{
+  width: 100%;
+}
+.sp_img_block img {
+  object-fit: cover;
+  height: 500px;
+  width: 387px;
+  transform: scale(0.9);
+}
+.add_soluong {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position:absolute;
+  bottom: -15px;
+}
+.drop_down{
+  display:none;
+}
+.bill{
+  width: 90%;
+}
+.ten_sdt {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.ten_wrapper,.sdt_wrapper{
+  width: 100%;
+  margin-bottom: 10px;
+}
+.form input{
+  width: 100%;
+}
+.bill_total,.form_wrapper,.ThanhToan{
+  width:90%;
 }
 }
